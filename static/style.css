@@ -1,0 +1,73 @@
+/* Basic styles for the Space Biology Knowledge Engine */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 1rem;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    margin: 0.5rem 0;
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+p {
+    margin: 0.3rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.experiments-table tbody tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+.experiment-detail th {
+    width: 20%;
+}
+
+footer {
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+#graph-container {
+    margin-top: 1rem;
+    overflow-x: auto;
+}

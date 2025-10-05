@@ -1,0 +1,11 @@
+# Requirements for the Space Biology dashboard
+#
+# Note: The packages listed here are already present in the execution
+# environment (fastapi, pandas, plotly). They are included for clarity
+# but are not installed via pip in this environment because external
+# network access is restricted. If you run this application locally,
+# ensure these packages are available.
+pandas
+plotly
+fastapi
+jinja2
