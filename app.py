@@ -19,10 +19,6 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-# Use a relative import for the knowledge_graph module. When this file is
-# executed within the ``space_biology_app`` package (for example via
-# ``uvicorn space_biology_app.app:app``), relative imports ensure that
-# Python correctly resolves the module from the package directory.
 from .knowledge_graph import build_graph, filter_graph_by_experiment, graph_to_plotly
 
 
